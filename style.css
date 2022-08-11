@@ -1,0 +1,76 @@
+*, *::after, *::before{
+    margin: 0;
+    color: #fff;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    height: 100vh;
+    background-color: #202632;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .advice__card .card{
+    max-width: 500px;
+    min-height: 200px;
+    background-color: #313A49;
+    border-radius: 10px;
+    padding: 0 0 2em 0;
+    position: relative;
+}
+
+.container .advice__card .card .card__header{
+    color: #57FCA7;
+    text-align: center;
+    padding: 2em 0;
+    letter-spacing: 2px;
+    font-size: 10px;
+}
+.container .advice__card .card p{
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+.container .advice__card .card .divider{
+    text-align: center;
+    margin: 1em .5em;
+}
+
+.container .advice__card .card .btn{
+    display: inline-block;
+    position: absolute;
+    background-color: #57FCA7;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0.8em;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.container .advice__card .card .btn:hover{
+    box-shadow: 0 0 10px #57FCA7;
+}
+
+.container .advice__card .card .btn:active{
+        box-shadow: 0 0 10px #57FCA7;
+}
+
+.container .attribution{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 1em;
+}
+
+.container .attribution a{
+    color: #57FCA7;
+}
